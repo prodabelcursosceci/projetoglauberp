@@ -81,7 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Primeiro Projeto Laravel
+                </div>
+
+                <div>
+                    <a href="http://pbh.gov.br">PBH</a>
+                    <a href="https://www.google.com">Dúvidas</a>
+                    <a href="/about">Sobre</a>
+                    <a href="/phpinfo">Informações</a>
+                    <a href="/helloworld">Hello World</a>
                 </div>
 
                 <div class="links">
