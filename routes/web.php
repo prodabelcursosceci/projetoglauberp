@@ -23,7 +23,15 @@ Route::get('/phpinfo', function () {
     phpinfo();
 });
 
-Route::get('/helloworld', "TesteController@index");
+
+Route::middleware('checkage')->group(function(){
+    Route::get('/helloworld', "TesteController@index");
+});
+
+
 Route::post('/helloworld', "TesteController@indexPost");
 
 Route::get('/helloworld/{nome}/{idade}', "TesteController@index2");
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
